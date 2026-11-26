@@ -1,0 +1,14 @@
+PANDUAN POS KANTIN BARU
+
+1. Ekstrak ZIP ini.
+2. Salin folder kantin_pos_baru ke htdocs yang sama dengan proyek lama.
+3. Start Apache dan MySQL di XAMPP.
+4. Buka http://localhost/phpmyadmin
+5. Pilih Import, pilih file setup.sql dari folder kantin_pos_baru, lalu klik Go.
+6. Buka http://localhost/kantin_pos_baru/buat_admin.php
+7. Buka http://localhost/kantin_pos_baru/login.php
+8. Login: admin
+   Password: Admin123!
+9. Setelah berhasil login, hapus buat_admin.php demi keamanan.
+
+Database yang dibuat adalah kantin_pos_db. Database lama pos_inventaris tidak dihapus.
